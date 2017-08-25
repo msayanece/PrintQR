@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         TextView text = (TextView) findViewById(R.id.editText);
+        if (text.getText().toString().isEmpty()){
+            Toast.makeText(this, "Kindly enter any text first", Toast.LENGTH_SHORT).show();
+            return;
+        }
         Bitmap QRBit = printQRCode(text.getText().toString());
         if (QRBit == null){
             Toast.makeText(this, "Unable to generate code!", Toast.LENGTH_SHORT).show();
