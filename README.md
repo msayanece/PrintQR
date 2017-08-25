@@ -1,6 +1,9 @@
 # PrintQR
 
-This will generate QR code (Image) from any text and print it
+This will generate QR code (Image) from any text and print it.
+This is a Sample project for easy understanding of the zxing library.
+
+![](http://cdnqrcgde.s3-eu-west-1.amazonaws.com/wp-content/uploads/2013/11/jpeg.jpg)
 
 
 
